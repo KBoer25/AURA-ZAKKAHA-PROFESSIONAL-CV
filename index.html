@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aura Zakkaha | Public Relations Portfolio</title>
     <style>
-        body { font-family: 'Times New Roman', serif; margin: 0; background: #fff; color: #1a1a1a; }
-        .hero { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; border-bottom: 1px solid #eee; }
-        h1 { font-size: 3rem; letter-spacing: 3px; text-transform: uppercase; margin: 0; }
-        .tagline { font-style: italic; color: #555; margin-bottom: 30px; }
-        .cv-button { padding: 15px 35px; border: 1px solid #1a1a1a; background: none; color: #1a1a1a; text-decoration: none; transition: 0.3s; cursor: pointer; }
-        .cv-button:hover { background: #1a1a1a; color: #fff; }
-        .research { padding: 60px 20px; max-width: 700px; margin: auto; text-align: center; }
-        .footer { font-size: 0.8rem; color: #999; padding: 40px; text-align: center; }
+        body { font-family: 'Times New Roman', serif; margin: 0; background: #fff; color: #1a1a1a; display: flex; flex-direction: column; min-height: 100vh; }
+        .hero { flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 20px; }
+        h1 { font-size: clamp(2rem, 8vw, 3.5rem); letter-spacing: 3px; text-transform: uppercase; margin: 0; }
+        .tagline { font-style: italic; color: #555; margin: 15px 0 40px 0; font-size: 1.1rem; }
+        .cv-button { padding: 18px 40px; border: 1.5px solid #1a1a1a; background: #1a1a1a; color: #fff; text-decoration: none; transition: 0.3s; font-weight: bold; letter-spacing: 1px; }
+        .cv-button:hover { background: #fff; color: #1a1a1a; }
+        .research { padding: 60px 20px; max-width: 700px; margin: auto; text-align: center; border-top: 1px solid #eee; }
+        .footer { font-size: 0.8rem; color: #999; padding: 40px; text-align: center; background: #fafafa; }
+        strong { color: #000; }
     </style>
 </head>
 <body>
@@ -20,16 +21,19 @@
     <section class="hero">
         <h1>Aura Zakkaha</h1>
         <p class="tagline">Public Relations & Personal Branding Specialist</p>
-        <a href="Aura%20Zakkaha's%20CV.pdf" class="cv-button" target="_blank">VIEW PROFESSIONAL CV</a>
+        
+        <a href="Aura%20Zakkaha's%20CV.pdf" class="cv-button" target="_blank" download>VIEW PROFESSIONAL CV</a>
+        
+        <p style="margin-top: 20px; font-size: 0.8rem; color: #888;">(Click to view or download PDF)</p>
     </section>
 
     <section class="research">
-        <h2 style="font-weight: normal; letter-spacing: 1px;">Selected Research</h2>
-        <p>Currently conducting a qualitative thesis at <strong>LSPR Communication & Business Institute</strong> regarding the personal branding of <strong>Raisa Andriana</strong>.</p>
+        <h2 style="font-weight: normal; letter-spacing: 1px;">Academic Focus</h2>
+        <p>Currently pursuing a qualitative thesis at <strong>LSPR Communication & Business Institute</strong> analyzing the personal branding of <strong>Raisa Andriana</strong>.</p>
     </section>
 
     <div class="footer">
-        Based in South Tangerang, Indonesia
+        South Tangerang, Indonesia
     </div>
 
 </body>
